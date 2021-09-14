@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "onearm-fastapi"
+version = "0.1.0"
+description = ""
+authors = ["Lance Chang <virtuouslycan@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+typer-cli = "^0.0.12"
+fastapi = "^0.68.1"
+uvicorn = "^0.15.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
